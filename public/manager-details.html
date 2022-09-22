@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./images/logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic margh</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <!-- owl  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+
+  <body class="font-Bree relative min-h-screen w-full overflow-auto">
+    <!-- nav and sub nav section  -->
+    <div class="sticky top-0 z-40 flex flex-col">
+      <!-- sub nav bar  -->
+      <header class="w-padding bg-primary-blue sticky hidden lg:block">
+        <!-- container  -->
+        <div
+          class="max-w flex items-center justify-between gap-4 py-1 text-sm text-gray-100"
+        >
+          <!-- contact sections  -->
+          <div class="flex flex-1 items-center gap-2">
+            <!-- mail  -->
+            <div class="flex items-center space-x-2">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+              </span>
+              <span>info@gmarg.com</span>
+            </div>
+            <!-- phone  -->
+            <div class="flex items-center space-x-2">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+              </span>
+              <span>056-52227, 9855022279</span>
+            </div>
+          </div>
+          <!-- date sections  -->
+          <div class="flex items-center gap-2">
+            <a href="./calender.html"
+              ><img src="./images/calender.png" class="w-8" alt=""
+            /></a>
+            <iframe
+              style="font-size: 40px"
+              scrolling="no"
+              frameborder="0"
+              marginwidth="0"
+              marginheight="0"
+              allowtransparency="true"
+              src="https://www.ashesh.com.np/linknepali-time.php?dwn=only&amp;font_color=eeeeee&amp;font_size=15&amp;bikram_sambat=0&amp;format=dmyw&amp;api=2421z6l241"
+              width="130"
+              height="25"
+            ></iframe>
+          </div>
+          <!-- social sections  -->
+          <div class="flex flex-1 items-center justify-end gap-4">
+            <a href="#"><i class="fab fa-facebook"></i></a
+            ><a href="#"><i class="fab fa-twitter"></i></a
+            ><a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </header>
+      <!-- sub navbar ends here  -->
+      <!-- nav bar  -->
+      <nav class="bg-primary-red sticky text-white lg:mt-0.5">
+        <div
+          class="mx-auto flex max-w-[2560px] items-center justify-between pr-4 md:pr-10 xl:pr-20"
+        >
+          <a href="./index.html">
+            <img src="./images/navlogo.png" alt="" />
+          </a>
+          <!-- links sections  -->
+          <div class="hidden lg:block">
+            <div
+              class="flex items-center lg:gap-6 lg:text-sm xl:gap-10 xl:text-base"
+            >
+              <div
+                class="flex items-center font-medium lg:gap-6 lg:text-sm xl:gap-10 xl:text-base"
+              >
+                <a href="./about.html" class="a-hover">
+                  <div>
+                    <div>About Us</div>
+                    <div>हाम्रो बारेमा</div>
+                  </div>
+                </a>
+                <a href="./services.html" class="a-hover">
+                  <div>
+                    <div>Our Services</div>
+                    <div>हामीले गर्ने कामहरु</div>
+                  </div>
+                </a>
+                <a href="./works.html" class="a-hover">
+                  <div>
+                    <div>Our Works</div>
+                    <div>हामीले गरेका कामहरु</div>
+                  </div>
+                </a>
+                <a href="./news.html" class="a-hover">
+                  <div>
+                    <div>News</div>
+                    <div>समाचार</div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <div class="flex justify-center">
+                  <div>
+                    <div class="dropdown relative">
+                      <a
+                        class="dropdown-toggle !bg-primary-blue flex items-center whitespace-nowrap rounded px-6 py-2.5 font-medium text-white shadow-md transition duration-150 ease-in-out focus:outline-none focus:ring-0 active:text-white active:shadow-lg"
+                        href="#"
+                        type="button"
+                        id="dropdownMenuButton2"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Login
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fas"
+                          data-icon="caret-down"
+                          class="ml-2 w-2"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 320 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                          ></path>
+                        </svg>
+                      </a>
+                      <ul
+                        class="dropdown-menu absolute z-50 float-left m-0 mt-1 hidden min-w-max list-none rounded-lg border-none bg-white bg-clip-padding py-2 px-3 text-left text-base shadow-lg"
+                        aria-labelledby="dropdownMenuButton2"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item animation hover:text-primary-blue block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-gray-700 hover:bg-blue-100"
+                            href="staff-login.html"
+                            >Staff Login</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item animation hover:text-primary-blue block w-full whitespace-nowrap bg-transparent py-2 px-4 text-sm font-normal text-gray-700 hover:bg-blue-100"
+                            href="user-login.html"
+                            >User Login</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- menu icon  -->
+          <div class="lg:hidden">
+            <a
+              class="cursor-pointer"
+              href="#offcanvasExample"
+              data-bs-toggle="offcanvas"
+              role="button"
+              aria-controls="offcanvasExample"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </a>
+            <!-- sidebar menu  -->
+            <sidebar
+              class="offcanvas offcanvas-start invisible fixed top-0 bottom-0 left-0 flex w-96 max-w-full flex-col border-none bg-white bg-clip-padding text-gray-700 shadow-sm outline-none transition duration-300 ease-in-out"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div
+                class="offcanvas-header flex items-center justify-between p-4"
+              >
+                <!-- logo here  -->
+                <div class="">
+                  <img src="./images/navlogo.png" alt="" />
+                </div>
+              </div>
+              <div class="offcanvas-body overflow-y-auto p-4">
+                <div class="flex items-center justify-center">
+                  <div class="flex flex-col space-y-3 font-medium">
+                    <a
+                      href="./about.html"
+                      class="a-hover text-center text-xl"
+                    >
+                      <div>About Us</div>
+                      <div>हाम्रो बारेमा</div>
+                    </a>
+                    <a
+                      href="./services.html"
+                      class="a-hover text-center text-xl"
+                    >
+                      <div>Our Services</div>
+                      <div>हामीले गर्ने कामहरु</div>
+                    </a>
+                    <a
+                      href="./works.html"
+                      class="a-hover text-center text-xl"
+                    >
+                      <div>Our Works</div>
+                      <div>हामीले गरेका कामहरु</div>
+                    </a>
+                    <a
+                      href="./news.html"
+                      class="a-hover text-center text-xl"
+                    >
+                      <div>News</div>
+                      <div>समाचार</div>
+                    </a>
+                    <div class="flex justify-center text-xl">
+                      <button
+                        class="bg-primary-green rounded px-6 py-2 text-white"
+                      >
+                        Login
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </sidebar>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end here  -->
+    </div>
+    <!-- nav and sub nav section end here -->
+
+    <!-- main frontpage  -->
+    <div class="w-padding mt-5 w-full">
+      <div class="mt-10">
+           <div
+        onclick="history.back() "
+        class="bg-primary-red inline-flex cursor-pointer items-center gap-2 rounded-full p-3"
+      >
+        <svg
+          class="h-6 w-6"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          role="img"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 1200 1200"
+        >
+          <path
+            fill="#f2e506"
+            d="m0 600l703.125 468.75V816.211H1200V383.789H703.125V131.25L0 600z"
+          />
+        </svg>
+        <h1 class="font-bold font-back text-white">Go back</h1>
+      </div>
+      </div>
+      <div class="max-w-[900px] mx-auto text-center">
+        <h1 class="title-style !font-Yatra">प्रबन्द निर्देसको भनाइ</h1>
+        <div class="mt-10 md:flex items-center justify-center gap-20">
+          
+            <div class="mb-10 flex justify-center">
+
+              <img
+                src="./images/user-img.jpg"
+                class="border-primary-blue h-auto w-auto rounded-3xl border-2 object-cover shadow-lg"
+              />
+            </div>
+          <div class="space-y-5 grid place-content-center text-left border-2 border-primary-blue p-5 rounded-2xl">
+            <h1 class="md:text-xl text-primary-red font-bold">Name : <span class="text-primary-blue ">Rajan Ghimire</spa></h1>
+            <h1 class="md:text-xl text-primary-red font-bold">Position : <span class="text-primary-blue ">Managing Director</spa></h1>
+            <h1 class="md:text-xl text-primary-red font-bold">Address : <span class="text-primary-blue ">Bharatpur-11, Chitwan</spa></h1>
+            <h1 class="md:text-xl text-primary-red font-bold">Contact : <span class="text-primary-blue ">980000000</spa></h1>
+          </div>
+        </div>
+        <div class="">
+          <div
+              class="text-primary-blue font-Laila mt-3 text-sm space-y-4 leading-7 lg:!text-lg"
+            >
+              <p>
+                हजुरको व्यवसायको आवश्यकता अनुसारको सेवा पाउदिनकि भन्ने चिन्ता अब
+                नलिनुहोस, कानुनी खातासंग आबद्द भयसंगै हजुरको एक दक्ष तथा अनुभबी
+                Expert assign हुनुहुनेछ जसले हजुरलाई सम्पर्क गरि प्रतक्ष्य रुपमा
+                हजुरको आवश्यकता/समस्या बुझी सोहि अनुरुप सल्लाह/सुझाब दिई चाहिने
+                सेवाको बृस्तृत जानकारी समेत दिनुहुनेछ | हजुरले आफ्नो अनुकुलता
+                अनुसार हाम्रो Expert संग प्रतक्ष्य कुरा गरी आफ्नो आवश्यकता पुरा
+                गर्न सक्नुहुने छ |
+              </p>
+              <p>
+                हजुरको व्यवसायको आवश्यकता अनुसारको सेवा पाउदिनकि भन्ने चिन्ता अब
+                नलिनुहोस, कानुनी खातासंग आबद्द भयसंगै हजुरको एक दक्ष तथा अनुभबी
+                Expert assign हुनुहुनेछ जसले हजुरलाई सम्पर्क गरि प्रतक्ष्य रुपमा
+                हजुरको आवश्यकता/समस्या बुझी सोहि अनुरुप सल्लाह/सुझाब दिई चाहिने
+                सेवाको बृस्तृत जानकारी समेत दिनुहुनेछ | हजुरले आफ्नो अनुकुलता
+                अनुसार हाम्रो Expert संग प्रतक्ष्य कुरा गरी आफ्नो आवश्यकता पुरा
+                गर्न सक्नुहुने छ |
+              </p>
+              <p>
+                हजुरको व्यवसायको आवश्यकता अनुसारको सेवा पाउदिनकि भन्ने चिन्ता अब
+                नलिनुहोस, कानुनी खातासंग आबद्द भयसंगै हजुरको एक दक्ष तथा अनुभबी
+                Expert assign हुनुहुनेछ जसले हजुरलाई सम्पर्क गरि प्रतक्ष्य रुपमा
+                हजुरको आवश्यकता/समस्या बुझी सोहि अनुरुप सल्लाह/सुझाब दिई चाहिने
+                सेवाको बृस्तृत जानकारी समेत दिनुहुनेछ | हजुरले आफ्नो अनुकुलता
+                अनुसार हाम्रो Expert संग प्रतक्ष्य कुरा गरी आफ्नो आवश्यकता पुरा
+                गर्न सक्नुहुने छ |
+              </p>
+             
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="max-w bg-primary-blue mt-20">
+      <div class="w-padding">
+        <footer class="text-center text-white lg:text-left">
+          <div class="mx-6 py-5 text-center md:text-left">
+            <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+              <!-- logo here  -->
+              <div class="flex flex-col">
+                <img src="./images/logo.png" class="mx-auto w-24" alt="" />
+                <div
+                  class="mt-1 ml-3.5 flex flex-col items-center justify-center"
+                >
+                  <!-- <h6
+                    class="mb-2 flex justify-center font-semibold md:justify-start"
+                  >
+                    Graphics Marga Pvt. Ltd.
+                  </h6> -->
+                  <p class="footer-links">
+                    कम्पनी दर्ता नॉ: 23456 पान नॉ : 4567
+                  </p>
+                  <!-- <p class="footer-links">
+                    Registered Office: Bharatpur-11, ByPass Road Chitwan
+                  </p> -->
+                </div>
+              </div>
+              <!-- Our Branches  -->
+              <div class="">
+                <!-- <h6
+                  class="mb-2 flex justify-center text-lg font-semibold md:justify-start"
+                >
+                  Our Office Addresses
+                </h6> -->
+                <p class="footer-links text-xl font-bold">Head Office</p>
+                <p class="footer-links">Bharatpur-11, ByPass Road Chitwan</p>
+                <!-- <h6
+                  class="mb-4 flex justify-center font-semibold md:justify-start"
+                >
+                  Main Office
+                </h6> -->
+                <!-- <p class="footer-links">Chitwan : 9876543210</p> -->
+
+                <h6
+                  class="mb-4 flex justify-center font-semibold md:justify-start"
+                >
+                  Branch Offices
+                </h6>
+                <div class="flex items-start gap-2 justify-center flex-wrap">
+                  <p class="footer-links">Pokhara,</p>
+                  <p class="footer-links">Kaski</p>
+                  <p class="h-5 w-0.5 bg-yellow-400"></p>
+                  <p class="footer-links">Bijauri,</p>
+                  <p class="footer-links">Dang</p>
+                  <p class="h-5 w-0.5 bg-yellow-400"></p>
+
+                  <p class="footer-links">Tripureshwor,</p>
+                  <p class="footer-links">Kathmandu</p>
+                </div>
+                <div class="flex items-start gap-2 justify-center flex-wrap">
+                  <p class="footer-links">Pokhara,</p>
+                  <p class="footer-links">Kaski</p>
+                  <p class="h-5 w-0.5 bg-yellow-400"></p>
+                  <p class="footer-links">Bijauri,</p>
+                  <p class="footer-links">Dang</p>
+                  <p class="h-5 w-0.5 bg-yellow-400"></p>
+
+                  <p class="footer-links">Tripureshwor,</p>
+                  <p class="footer-links">Kathmandu</p>
+                </div>
+                <p
+                  class="inline-flex border-2 border-yellow-500 px-3 py-1 text-base md:text-xl font-bold text-yellow-400"
+                >
+                  Branches Details >
+                </p>
+              </div>
+              <div class="">
+                <h6
+                  class="mb-4 flex justify-center font-semibold md:justify-start"
+                >
+                  Contact Us
+                </h6>
+                <p class="footer-links">
+                  056-522279,9855022279, 9844978300,9846613590,9809512750
+                </p>
+                <p class="footer-links">
+                  For Chitwan 9842317512,9810878785 Dang
+                </p>
+                <p class="footer-links">Email :gmarg2075@gmail.com</p>
+                <p class="footer-links">For V-card :gmarg.vcard@gmail.com</p>
+              </div>
+              <div class="">
+                <h6
+                  class="mb-2 flex justify-center font-semibold md:justify-start"
+                >
+                  Importants!!
+                </h6>
+                <div
+                  class="border-extralightBorder h-36 w-full overflow-auto border p-2"
+                >
+                  <p class="footer-links underline">Radio</p>
+                  <p class="footer-links underline">Tv Channels</p>
+                  <p class="footer-links underline">Radio</p>
+                  <p class="footer-links underline">Tv Channels</p>
+                  <p class="footer-links underline">Radio</p>
+                  <p class="footer-links underline">Tv Channels</p>
+                  <p class="footer-links underline">Radio</p>
+                  <p class="footer-links underline">Tv Channels</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="bg-[#0A4275] p-2 text-center text-xs text-white">
+        <span>© 2021 Copyright:</span>
+        <a class="font-semibold" href="https://intelzy.co/" target="_blank"
+          >Intelzy</a
+        >
+      </div>
+    </footer>
+    <!-- footer ends here  -->
+    <!-- footer subnav  -->
+    <header
+      class="w-padding bg-primary-blue sticky bottom-0 z-50 block lg:hidden"
+    >
+      <!-- container  -->
+      <div
+        class="max-w flex items-center justify-between gap-4 py-1 text-xs text-gray-100"
+      >
+        <!-- contact sections  -->
+        <!-- mail  -->
+        <div class="flex items-center space-x-2">
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+          </span>
+          <a href="mailto:info@gmarg.com">info@gmarg.com</a>
+        </div>
+        <!-- phone  -->
+        <div class="flex items-center space-x-2">
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              />
+            </svg>
+          </span>
+          <a href="tel:05652227">056-52227</a>,<a href="tel:9855022279"
+            >9855022279</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- footer subar ends  -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- crousel  -->
+    <script>
+      $(function () {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          loop: true,
+          margin: 20,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            481: {
+              items: 2,
+            },
+            768: {
+              items: 3,
+            },
+            1024: {
+              items: 3,
+            },
+            1200: {
+              items: 5,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
